@@ -1,0 +1,48 @@
+.list{
+    width: 100%;
+    height: auto;
+
+    .listTitle{
+        @media (max-width:480px) {
+            font-size: 1.5rem;
+            margin: 6%;
+        }
+        font-size: 2vw;
+        margin: 2%;
+        color: #fff;
+    }
+    .wrapper{
+        position: relative;
+        .container{
+            width: max-content;
+            margin-left: 50px;
+            margin-top: 1%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow-x: auto;
+            transform: translateX(0px);
+            transition: all 1s ease;
+        }
+        .sliderArrow{
+            width: 50px;
+            height: 100%;
+            background:rgb(22, 22, 22, 0.5);
+            color: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: 9;
+            cursor: pointer;
+
+            &.left{
+                left: 0;
+            }
+            &.right{
+                right: 0;
+            }
+        }
+    }
+}

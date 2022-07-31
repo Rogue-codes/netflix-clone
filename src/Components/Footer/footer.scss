@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-container{
+        width: 80%;
+        margin: auto;
+        height: 50vh;
+        border: 5px solid #000;
+        a{
+            color: #737373;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .links{
+            display: flex;
+            justify-content: space-between;
+            ul{
+                margin-top: 2%;
+                list-style-type: none;
+                li{
+                    margin-top: 10%;
+                    cursor: pointer;
+                    color: #737373;
+                    font-size: 1.1vw;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    .cloned{
+                        color: red;
+                    }
+                }
+            }
+        }
+
+    }
+}
