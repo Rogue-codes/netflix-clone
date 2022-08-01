@@ -18,12 +18,18 @@ footer{
             }
         }
         .links{
+            @media (max-width:480px) {
+                flex-wrap: wrap;
+            }
             display: flex;
             justify-content: space-between;
             ul{
                 margin-top: 2%;
                 list-style-type: none;
                 li{
+                    @media (max-width:480px) {
+                        font-size: .6rem;
+                    }
                     margin-top: 10%;
                     cursor: pointer;
                     color: #737373;
