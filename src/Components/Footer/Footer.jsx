@@ -13,7 +13,7 @@ function Footer() {
                     <li>Privacy</li>
                     <li>Speed Test</li>
                     <li>Netflix Nigeria</li>
-                    <li><Link to='/' className='cloned'>Cloned by Osuji Nnamdi Daniel</Link></li>
+                    <li><a href="https://nnamdiosuji.netlify.app/" className='cloned'>Cloned by Osuji Nnamdi Daniel</a></li>
                 </ul>
 
                 <ul>
